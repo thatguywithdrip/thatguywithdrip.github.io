@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 const Port = 3600;
 
+app.use(express.static(__dirname + '/'));
+
 app.get('/', (request, response) => {
 
     readFile('./index.html', 'utf8', (err, html) => {
