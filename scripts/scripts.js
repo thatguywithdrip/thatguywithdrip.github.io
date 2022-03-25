@@ -1,13 +1,13 @@
 
              function redirectToZyciorys (){
 
-                window.location.href = "http://localhost:3600/Zyciorys";
+                window.location.href = "/Zyciorys";
                 
                }
                
                function redirectToMain (){
                 
                 
-                window.location.href = "http://localhost:3600";
+                window.location.href = "/";
           
                 }
