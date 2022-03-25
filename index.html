@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css"  href="css/style.css">
+        <script   src="scripts/scripts.js"> </script>
         
         <style>
           
@@ -15,14 +16,17 @@
     </head>
     <body style="background-color:black">
       <header  class="Sticky" >
-        
-          <img alt = "kruczek" src="images/pobrane.png" width="1595" height="100" >
-          <h1 class="first-txt"style="color: black" >Wedelek </h1>
+
+          <img class="headerimage" alt = "kruczek" src="images/pobrane.png" width="1585" height="75" >
+          <h1 class="first-txt"style="color: black" onclick="">Wedelek </h1>
           <p class="bottom-txt"style="color: black">Siema tu</p>
-         <a class="ExternalLinks" style="color: black" href = "/Zyciorys" style = "left: 50px"><h2> <b>Życiorys </b> </h2></a> 
+         <button  id="zyciorysbtn" class="ZyciorysBtn" submit  style="
+         background-color: burlywood;" onclick = "redirectToZyciorys();"  ><h2> <b>Życiorys </b> </h2></a> 
+         <button   disabled  id="zyciorysbtn" class="MenuBtn"  submit  style="
+         background-color: burlywood;" onclick = "redirectToMain();" ><h2> <b>Main </b> </h2></a> 
        </header>
        <div class="Images" >
-    <!--    <img alt="kruczek" src="https://m.media-amazon.com/images/I/211nMW8b1uL._AC_SY780_.jpg" width="500" height="1595" > -->
+    
         
         <img alt="siema"  src="images/kruczek1.jpg" width="400" > 
         <br/><img alt="siema" src="images/kruczek2.jpg"  height="300">

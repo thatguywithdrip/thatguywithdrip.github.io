@@ -3,10 +3,14 @@ const express = require('express');
 const app = express();
 const Port = 3600;
 
+
 app.use(express.static(__dirname + '/'));
 
-app.get('/', (request, response) => {
 
+
+app.get('/', (request, response) => {
+    
+    
     readFile('./index.html', 'utf8', (err, html) => {
 
         if (err){
@@ -19,6 +23,7 @@ app.get('/', (request, response) => {
 });
 app.get('/Zyciorys', (request, response) => {
 
+    
     readFile('./Zyciorys.html', 'utf8', (err, html) => {
 
         if (err){
@@ -28,6 +33,23 @@ app.get('/Zyciorys', (request, response) => {
 
         response.send(html);
     })
+});
+app.get('/Error', (request, response) => {
+
+    
+    readFile('./Error.html', 'utf8', (err, html) => {
+
+        if (err){
+
+            response.status(500).send('error, lol');
+        }
+
+        response.send(html);
+    })
+});
+app.get('*', function(req, res) {
+    
+    res.redirect('/Error');
 });
 
 

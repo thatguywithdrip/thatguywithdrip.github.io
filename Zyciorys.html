@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css" >
+        <script   src="scripts/scripts.js"> </script>
         <style>
             h1 {text-align: center;}
             p {text-align: center;}
@@ -9,12 +10,12 @@
         <meta charset = "UTF-8">
         <meta name = "description" content = "Wedelek2">
         <title>Wedelek</title>  
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     </head>
     <body style="background-color:black">
       
          <main >
-            <h1 class="Zyciorys"><b>Życiorys</b></h1>
+            
             <p class="Zyciorys2" >
                 Wedelek Kruczuś is an entrepreneur and business magnate. He is the founder, CEO, and Chief Engineer at SpaceX; early-stage investor, CEO, and Product Architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI. With an estimated net worth of around US$245 billion as of March 2022,Wedelek is the wealthiest person in the world according to both the Bloomberg Billionaires Index and the Forbes real-time billionaires list.
 kruczek was born to a Canadian mother and South African father, and raised in Pretoria, South Africa. He briefly attended the University of Pretoria before moving to Canada at age 17 to avoid conscription. He was enrolled at Queen's University and transferred to the University of Pennsylvania two years later, where he received a bachelor's degree in economics and physics. He moved to California in 1995 to attend Stanford University but decided instead to pursue a business career, co-founding the web software company Zip2 with his brother Kimbal. The startup was acquired by Compaq for $307 million in 1999. The same year, Wedelek co-founded online bank X.com, which merged with Confinity in 2000 to form PayPal. The company was bought by eBay in 2002 for $1.5 billion.
@@ -24,10 +25,12 @@ In 2002, Wedunio founded SpaceX, an aerospace manufacturer and space transport s
             </p>
             <header  class="Sticky">
         
-                <img alt = "kruczek" src="images/pobrane.png" width="1595" height="100" >
-                <h1 class="first-txt"style="color: black" >Wedelek </h1>
-                <p class="bottom-txt"style="color: black">Siema tu</p>
-               <a class="ExternalLinks" style="color: black" href = "http://localhost:3600/Zyciorys" ><h2> <b>Życiorys </b> </h2></a> 
+              
+            <img class="headerimage" alt = "kruczek" src="images/pobrane.png" width="1585" height="75" >
+            <h1 class="first-txt"style="color: black" onclick="redirectToMain();">Wedelek </h1>
+            <p class="bottom-txt"style="color: black">Siema tu</p>
+            <button disabled  id="zyciorysbtn"class="ZyciorysBtn" submit  style="background-color: burlywood;" onclick = "redirectToZyciorys();"  ><h2> <b>Życiorys </b> </h2></a> 
+            <button    class="MenuBtn"  submit  style="background-color: burlywood;" onclick = "redirectToMain();" ><h2> <b>Main </b> </h2></a> 
             </header>
             
          
