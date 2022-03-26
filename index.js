@@ -47,6 +47,19 @@ app.get('/Error', (request, response) => {
         response.send(html);
     })
 });
+app.get('/Butelka', (request, response) => {
+
+    
+    readFile('./Butelka.html', 'utf8', (err, html) => {
+
+        if (err){
+
+            response.status(500).send('error, lol');
+        }
+
+        response.send(html);
+    })
+});
 app.get('*', function(req, res) {
     
     res.redirect('/Error');
