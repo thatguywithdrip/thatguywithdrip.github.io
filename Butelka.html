@@ -32,22 +32,48 @@
             
             </header>
             <main >
-                <img id="butelka"src=" images/butelka.jpg"class="ButelkaImg" height="600" style=" z-index: -1;"> 
-                <button submit  onclick="Losuj();"style="
+                <img id="butelka" draggable = "false"src=" images/butelka.jpg"class="ButelkaImg" height="600" style=" z-index: -1;"> 
+                <button submit  onclick="Losuj(); "style="
                 background-color: burlywood; position: absolute; top: 600px; left: 710px; width: 200px; height: 120px; "  ><b><h1>Losuj</h1></b></button>
-                <input  id="input1" style="
-                background-color: gray; position: absolute; top: 200px; left: 610px; width: 100px; height: 30px; text-align: center;"  >
-                <input  id="input2" style="
-                background-color: gray; position: absolute; top: 200px; right: 608px; width: 100px; height: 30px; text-align: center;"  >
-                <input  id="input3" style="
-                background-color: gray; position: absolute; top: 310px; left: 510px; width: 100px; height: 30px; text-align: center;"  >
-                <input  id="input4" style="
-                background-color: gray; position: absolute; top: 310px; right: 508px; width: 100px; height: 30px; text-align: center;"  >
-                <input  id="input5" style="
-                background-color: gray; position: absolute; top: 430px; right: 508px; width: 100px; height: 30px; text-align: center;"  >
-                <input  id="input6" style="
-                background-color: gray; position: absolute; top: 430px; left: 510px; width: 100px; height: 30px; text-align: center;"  >
+                <button submit  onclick="Reset(); Reload();"style="
+                background-color: burlywood; position: absolute; top: 600px; left: 410px; width: 200px; height: 120px; "  ><b><h1>Resetuj</h1></b></button>
                 
+                <input  id="input1" style="
+                background-color: rgb(190, 179, 163); position: absolute; top: 200px; left: 610px; width: 100px; height: 30px; text-align: center;"  >
+                <input  id="input2" style="
+                background-color: rgb(190, 179, 163); position: absolute; top: 200px; left: 900px; width: 100px; height: 30px; text-align: center;"  >
+                <input  id="input3" style="
+                background-color:  rgb(190, 179, 163); position: absolute; top: 310px; left: 510px; width: 100px; height: 30px; text-align: center;"  >
+                <input  id="input4" style="
+                background-color: rgb(190, 179, 163); position: absolute; top: 310px; left: 1000px; width: 100px; height: 30px; text-align: center;"  >
+                <input  id="input5" style="
+                background-color: rgb(190, 179, 163); position: absolute; top: 430px; left: 1008px; width: 100px; height: 30px; text-align: center;"  >
+                <input  id="input6" style="
+                background-color: rgb(190, 179, 163); position: absolute; top: 430px; left: 510px; width: 100px; height: 30px; text-align: center;"  >
+                <script>
+                    var input = new Array(6);
+                    input[1] = document.getElementById('input1');
+                    input[2] = document.getElementById('input2');
+                    input[3] = document.getElementById('input3');
+                    input[4] = document.getElementById('input4');
+                    input[5] = document.getElementById('input5');
+                    input[6] = document.getElementById('input6');
+                    input[1].value = localStorage.getItem("input1");
+                    input[2].value = localStorage.getItem("input2");
+                    input[3].value = localStorage.getItem("input3");
+                    input[4].value = localStorage.getItem("input4");
+                    input[5].value = localStorage.getItem("input5");
+                    input[6].value = localStorage.getItem("input6");
+                    function Reload(){
+                    
+                    input[1].value = localStorage.getItem("input1");
+                    input[2].value = localStorage.getItem("input2");
+                    input[3].value = localStorage.getItem("input3");
+                    input[4].value = localStorage.getItem("input4");
+                    input[5].value = localStorage.getItem("input5");
+                    input[6].value = localStorage.getItem("input6");
+                    }
+                </script>
             </main>
             
          
