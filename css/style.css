@@ -3,14 +3,14 @@
 
     .first-txt {
     position: absolute;
-    width: 100%;
+    left: 45%;
     z-index: 5;
     
     
 }
     .bottom-txt {
     position: absolute;
-    width: 96%;
+    left: 45%;
     white-space: nowrap;
     z-index: 5;
 
