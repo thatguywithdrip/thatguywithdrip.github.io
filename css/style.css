@@ -1,19 +1,47 @@
 
+@keyframes Buttons{
+  from {border-radius: 10px;}
+  to {border-radius: 15px;}
+  
+}
+    button {
+      cursor: pointer;
+      background-color: burlywood;
+      transition-duration: 0.4;
+      border: 10px;
+      border-color: black;
+      border-radius: 10px;
+      transition: 0.4s;
+    }
+   
+    
+    a:hover{
+     
+      text-decoration: underline;
+    }
 
-
+    button:hover {
+     
+      border-radius: 20px;
+      background-color: rgb(214, 165, 100);
+     
+    }
     .first-txt {
     position: absolute;
-    top: 5%;
     left: 45%;
     z-index: 5;
-    
-    
+
 }
+    
+
+    button:disabled {
+      background-color: rgb(172, 153, 130);
+    }
+
     .bottom-txt {
     position: absolute;
     left: 45%;
     white-space: nowrap;
-    top: 5%;
     z-index: 5;
 
   
@@ -48,8 +76,13 @@
   
   .Images {
     text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
     
    
+    
+    
   }
   .Error {
     position: absolute;
@@ -63,7 +96,7 @@
     text-align: center;
     position: absolute;
     top: 10px;
-    right: 450px;
+    right: 25%;
     color: "black ";
     height: 60px;
     
@@ -72,7 +105,7 @@
     text-align: center;
     position: absolute;
     top: 10px;
-    left: 925px;
+    right: 33%;
     color: "black ";
     width: 100px;
     height: 60px;
@@ -102,7 +135,7 @@
   text-align: center;
   position: absolute;
   top: 10px;
-  left: 525px;
+  left: 30%;
   color: "black ";
   width: 100px;
   height: 60px;

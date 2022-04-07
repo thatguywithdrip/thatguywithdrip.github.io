@@ -1,20 +1,20 @@
 
 function redirectToZyciorys (){
 
-   window.location.href = "/Zyciorys";
+   window.location.href = "http://localhost:3600/Zyciorys";
    
    }
    
    function redirectToMain (){
    
    
-   window.location.href = "/";
+   window.location.href = "http://localhost:3600";
 
    }
    function redirectToButelka (){
    
    
-      window.location.href = "/Butelka";
+      window.location.href = "http://localhost:3600/Butelka";
 
       }
 function Losuj (){
@@ -34,12 +34,7 @@ function Losuj (){
       
    }
    
-   localStorage.setItem("input1", input[1].value);
-   localStorage.setItem("input2", input[2].value);
-   localStorage.setItem("input3", input[3].value);
-   localStorage.setItem("input4", input[4].value);
-   localStorage.setItem("input5", input[5].value);
-   localStorage.setItem("input6", input[6].value);
+ 
    
    var butelka = document.getElementById('butelka');
    
@@ -75,3 +70,12 @@ function Reset() {
    localStorage.setItem("input6", "");
    
 }
+function buttonClick(ID){
+
+document.getElementById(ID).style.backgroundColor = "black";
+setTimeout(function() {
+   document.getElementById(ID).style.backgroundColor = "burlywood";
+ }, 100);
+
+}
+
