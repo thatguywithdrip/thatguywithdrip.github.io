@@ -8,7 +8,7 @@ function redirectToZyciorys (){
    function redirectToMain (){
    
    
-   window.location.href = "h/";
+   window.location.href = "/";
 
    }
    function redirectToButelka (){
