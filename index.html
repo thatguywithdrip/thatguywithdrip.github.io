@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css"  href="css/style.css">
         <link rel="stylesheet" type="text/css"  href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script   src="scripts/scripts.js"> </script>
         
         <style>
@@ -19,9 +20,10 @@
       <header  class="Sticky" >
 
           
-        <h1 class="first-txt "style="color: black" onclick="">Wedelek </h1>
+        <h1 class="first-txt "style="color: black" >Wedelek </h1>
         <p class="bottom-txt"style="color: black">Siema tu</p>
         <img class="headerimage " alt = "kruczek" src="images/pobrane.png"  height="75" >
+         <button class="downloadbutton" submit onclick="DownloadImage();"> <i class="fa fa-download " ></i></i></button>
          <button  id="zyciorysbtn" class="ZyciorysBtn" submit  style="
          background-color: burlywood;" onclick = " buttonClick(this.id); redirectToZyciorys();"  ><h2> <b>Życiorys </b> </h2></a> 
          <button   disabled  id="zyciorysbtnn" class="MenuBtn"  submit  style="
@@ -31,14 +33,54 @@
          
        </header>
        <div class="Images  ">
-    
         
-        <div><img alt="siema"   src="images/kruczek1.jpg" width="400" > </div>
-        <div><img alt="siema" src="images/kruczek2.jpg"  height="300"></div>
-        <div><img alt="siema" src="images/kruczek3.jpg" width="250" ></div>
-        <div><img alt="siema" src="images/kruczek4.jpg"  height="400"></div>
-        <div><img alt="siema" src="images/kruczek5.jpg" width="250" ></div>
-        <div><img alt = "siema" src="images/kruczek6.jpg"  height="500"> </div>
+        <div><img alt="siema" class="MainImage"  src="images/kruczek1.jpg" > </div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek2.jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek3.jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek4.jpg" ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek5.jpg" ></div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek6.jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek7.jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek8.jpg"  > </div>
+        <div><img alt="siema" class="MainImage"  src="images/kruczek9.jpg" > </div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek10.jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek12.jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek13.jpg" ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek14.jpg" ></div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek15.jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek16.jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek17.jpg"  > </div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek18.jpg" ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek19.jpg" ></div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek20.jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek21.jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek22.jpg"  > </div>
+        <div><img alt="siema" class="MainImage"  src="images/kruczek (11).jpg" > </div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (17).jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (13).jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek26.jpg" ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek27.jpg" ></div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (9).jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (10).jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (14).jpg"  > </div>
+        <div><img alt="siema" class="MainImage"  src="images/kruczek (15).jpg" > </div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (16).jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek33.jpg"  ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (19).jpg" ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (7).jpg" ></div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (8).jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (20).jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (21).jpg"  > </div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (22).jpg" ></div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (23).jpg" ></div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (25).jpg"  > </div>
+        
+        <div><img alt="siema" class="MainImage" src="images/kruczek (1).jpg" ></div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (2).jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (3).jpg"  > </div>
+        <div><img alt = "siema" class="MainImage" src="images/kruczek (4).jpg"  > </div>
+        <div><img alt="siema" class="MainImage" src="images/kruczek (5).jpg" ></div>
+        
        </div>
       
     </body>

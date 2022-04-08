@@ -60,6 +60,19 @@ app.get('/Butelka', (request, response) => {
         response.send(html);
     })
 });
+app.get('/TopSecret', (request, response) => {
+
+    
+    readFile('./TopSecret.html', 'utf8', (err, html) => {
+
+        if (err){
+
+            response.status(500).send('error, lol');
+        }
+
+        response.send(html);
+    })
+});
 app.get('*', function(req, res) {
     
     res.redirect('/Error');

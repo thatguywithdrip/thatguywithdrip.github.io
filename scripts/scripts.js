@@ -1,20 +1,23 @@
+function DownloadImage(){
+   window.location.href = "http://localhost:3600/Zdjęcia.zip";
+}
 
 function redirectToZyciorys (){
 
-   window.location.href = "/Zyciorys";
+   window.location.href = "http://localhost:3600/Zyciorys";
    
    }
    
    function redirectToMain (){
    
    
-   window.location.href = "/";
+   window.location.href = "http://localhost:3600";
 
    }
    function redirectToButelka (){
    
    
-      window.location.href = "/Butelka";
+      window.location.href = "http://localhost:3600/Butelka";
 
       }
 function Losuj (){

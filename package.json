@@ -2,15 +2,23 @@
   "name": "ddd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/scripts/3D.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
-    "start" : "node ."
+    "vite": "^2.9.1",
+    "three": "^0.128.0"
+    
+
+
+
   }
 }
