@@ -103,7 +103,7 @@
     display: grid;
     object-fit: fill;
     grid-auto-rows: 10%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 
