@@ -13,9 +13,7 @@
       border-radius: 10px;
       transition: 0.4s;
       font-family: "Roboto";
-      -webkit-text-fill-color: rgba(0, 0, 0, 1); 
-       
-      color: rgba(0, 0, 0, 1); 
+      
     }
    .downloadbutton {
     position: absolute;
