@@ -13,6 +13,9 @@
       border-radius: 10px;
       transition: 0.4s;
       font-family: "Roboto";
+      -webkit-text-fill-color: rgba(0, 0, 0, 1); 
+       
+      color: rgba(0, 0, 0, 1); 
     }
    .downloadbutton {
     position: absolute;
@@ -173,7 +176,7 @@
 .ButelkaImg{
   position: relative;
   top: 20px;
-  left: 500px;
+  left: 400px;
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
