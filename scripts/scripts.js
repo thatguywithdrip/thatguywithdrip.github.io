@@ -1,23 +1,23 @@
 function DownloadImage(){
-   window.location.href = "http://localhost:3600/Zdjęcia.zip";
+   window.location.href = "https://download1488.mediafire.com/k9cgpbee91mg/vwohn94b5abndqu/Zdj%C4%99cia.zip";
 }
 
 function redirectToZyciorys (){
 
-   window.location.href = "http://localhost:3600/Zyciorys";
+   window.location.href = "/Zyciorys";
    
    }
    
    function redirectToMain (){
    
    
-   window.location.href = "http://localhost:3600";
+   window.location.href = "/";
 
    }
    function redirectToButelka (){
    
    
-      window.location.href = "http://localhost:3600/Butelka";
+      window.location.href = "/Butelka";
 
       }
 function Losuj (){
