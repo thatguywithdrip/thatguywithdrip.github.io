@@ -2,12 +2,49 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script   src="scripts/scripts.js"> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | kasjerka</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+          
+      h1 {text-align: center;}
+      p {text-align: center;}
+      </style>
+      <meta charset = "UTF-8">
+      <meta name = "description" content = "Wedelek">
+      <title>Wedelek</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <header  class="Sticky" >
+
+          
+        <h1 class="first-txt "style="color: black" >Wedelek </h1>
+        <p class="bottom-txt"style="color: black">Siema tu</p>
+         <img class="headerimage " alt = "kruczek" src="images/pobrane.png"  height="75" >
+         
+         
+          <button class="downloadbutton" submit onclick="DownloadImage();"> <i class="fa fa-download " ></i></i></button>
+       
+        
+         
+        </div> 
+         <button  id="zyciorysbtn" class="ZyciorysBtn" submit  style="
+         background-color: burlywood;" onclick = " buttonClick(this.id); redirectToZyciorys();"  ><h2> <b>Życiorys </b> </h2></a> 
+         <button   id="zyciorysbtnn" class="MenuBtn"  submit  style="
+         background-color: burlywood;" onclick = " buttonClick(this.id); redirectToMain();" ><h2> <b>Main </b> </h2></a> 
+         <button  id="zyciorysbtnnnn" class="ButelkaBtn" submit  style="
+         background-color: burlywood;" onclick = " buttonClick(this.id); redirectToButelka();"  ><h2> <b>Butelka </b> </h2></a> 
+         
+       </header>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -17,10 +54,10 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
+      
+        
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">kasjerka</div>
+        
       </div>
     </div>
     <script>
