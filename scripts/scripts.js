@@ -1,5 +1,5 @@
 function DownloadImage(){
-   window.location.href = "https://download1488.mediafire.com/k9cgpbee91mg/vwohn94b5abndqu/Zdj%C4%99cia.zip";
+   window.location.href = "https://download2265.mediafire.com/r5a5vmn18xkg/vwohn94b5abndqu/Zdj%C4%99cia.zip";
 }
 
 function redirectToZyciorys (){
