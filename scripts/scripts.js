@@ -20,6 +20,18 @@ function redirectToZyciorys (){
       window.location.href = "/Butelka";
 
       }
+   function redirectToGit (){
+   
+   
+      window.location.href = "https://github.com/thatguywithdrip/thatguywithdrip.github.io";
+   
+   }
+   function redirectToKasjerka (){
+   
+   
+      window.location.href = "/kasjerka";
+   
+   }
 function Losuj (){
    var Random = Math.floor(Math.random() * (7 - 1)) + 1;
    var input = new Array(7);
