@@ -1,3 +1,23 @@
+let ImageChange = false;
+
+function Menu() {
+   const Image = document.getElementById("MenuImg");
+   Image.classList.toggle("change");
+   const Menu = document.getElementById("MS");
+   Menu.classList.toggle("MenuScreenChange");
+   
+   
+  /* if (!ImageChange){
+   Image.src = "images/amogus.png";
+   ImageChange = true;
+   }
+   else if (ImageChange){
+      Image.src = "images/menu.png";
+      ImageChange = false;
+   }
+   */
+}
+
 function DownloadImage(){
    window.location.href = "https://download2265.mediafire.com/r5a5vmn18xkg/vwohn94b5abndqu/Zdj%C4%99cia.zip";
 }
